@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0F1624;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    /* position: relative; */
+    /* overflow: hidden; */
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 137px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.logo_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    width: 202px;
+    font-size: 30px;
+
+}
+
+.menu_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    width: 500px;
+    font-size: 24px;
+}
+
+
+
+.menu_section a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu_section a {
+    position: relative;
+}
+
+.menu_section a:hover::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 4px;
+    background: linear-gradient(to right, #13ADC7, #6978D1, #945DD6);
+    bottom: -6px;
+    left: -10px;
+}
+
+.soc_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    width: 120px;
+}
+
+.soc_section img {
+    width: 32px;
+}
+
+.soc_section img:hover {
+    width: 150%;
+}
+
+.main {
+    overflow: hidden;
+    position: relative;
+
+}
+
+.hero_text {
+    display: flex;
+    width: 800px;
+    min-height: 500px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 146px;
+    /* z-index: 2; */
+}
+
+.hero_text h1 {
+    font-size: 55px;
+}
+
+.hero_text p {
+    font-size: 30px;
+}
+
+.hero_text a {
+    background: linear-gradient(to right, #13ADC7, #6978D1, #945DD6);
+    text-decoration: none;
+    color: #fff;
+    width: 280px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 28px;
+    border-radius: 80px;
+
+}
+
+.hero_text a:hover {
+    background: #ffffff;
+    color: #945DD6;
+}
+
+.hero_image {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.pic {
+    position: absolute;
+    top: 0;
+    right: -250px;
+    width: 758px;
+    z-index: 2;
+}
