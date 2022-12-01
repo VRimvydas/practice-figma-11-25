@@ -1,6 +1,6 @@
 ### Praktinė užduotis Figma dizainas
 
-Sudėlioti puslapį pagal Figma dizainą naudojant HTML iR CSS
+Sudėlioti puslapį pagal Figma dizainą naudojant HTML ir CSS
 
 Atlikta 2022.11.25
 
